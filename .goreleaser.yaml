@@ -23,7 +23,9 @@ builds:
       - arm64
 
 kos:
-  - repository: ghcr.io/goreleaser/example-ko
+  - repositories:
+      - ghcr.io/goreleaser/example-ko
+      - goreleaser/example-ko
     tags:
       - "{{.Version}}"
       - latest
