@@ -25,7 +25,6 @@ builds:
 kos:
   - repositories:
       - ghcr.io/goreleaser/example-ko
-      - goreleaser/example-ko
     tags:
       - "{{.Version}}"
       - latest
